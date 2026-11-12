@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>R. Yogesh Portfolio</title>
+  <meta name="description"
+    content="Academic portfolio of R. Yogesh, Associate Professor at Vidya Jyothi Institute of Technology and Ph.D. Scholar at SR University. Specializing in Artificial Intelligence, Computer Science, and Distributed Systems.">
+  <meta name="keywords"
+    content="R. Yogesh, Academic Portfolio, Computer Science, Artificial Intelligence, Vidya Jyothi Institute of Technology, SR University, Associate Professor, Research Scholar">
+  <meta name="author" content="R. Yogesh">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Top Announcement / University Badge -->
+  <div class="top-announcement">
+    <div class="container top-bar-content">
+      <span><i class="fa-solid fa-graduation-cap"></i> Ph.D. Research Scholar in AI &amp; Computer Science — SR
+        University</span>
+      <span class="top-bar-divider">|</span>
+      <span><i class="fa-solid fa-university"></i> Associate Professor at Vidya Jyothi Institute of Technology (VJIT),
+        Hyderabad</span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <header class="site-header" id="header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#home" class="nav-brand" aria-label="R. Yogesh Homepage">
+        <div class="brand-text">
+          <span class="brand-name">Yogesh</span>
+        </div>
+      </a>
+
+      <span style="margin-left: 10px;"></span>
+
+      <!-- Mobile Nav Toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links Menu -->
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#research" class="nav-link">Research</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#publications" class="nav-link">Publications</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#teaching" class="nav-link">Teaching</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Action Items (Theme Toggle & CV) -->
+        <div class="nav-actions">
+          <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle light and dark color scheme"
+            title="Toggle Theme">
+            <i class="fa-solid fa-moon dark-icon"></i>
+            <i class="fa-solid fa-sun light-icon"></i>
+          </button>
+          <!-- <a href="#resume" class="btn btn-sm btn-primary nav-cv-btn">
+            <i class="fa-solid fa-file-pdf"></i> CV
+          </a> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Academic Faculty &amp; Doctoral Researcher</span>
+          </div>
+          <h1 class="hero-title">
+            Hello, I am <span class="text-highlight">R. Yogesh</span>
+          </h1>
+          <p class="hero-roles">
+            I am a <span class="typing-text" id="typingText"></span><span class="typing-cursor">&nbsp;</span>
+          </p>
+          <p class="hero-description">
+            Dedicated educator and researcher with <strong>18+ years of engineering teaching experience</strong> and
+            industry software engineering background. Currently serving as Associate Professor in the Department of
+            Computer Science &amp; Engineering at Vidya Jyothi Institute of Technology (VJIT), Hyderabad, while
+            advancing doctoral research in Computer Science and Artificial Intelligence at SR University.
+          </p>
+
+          <!-- Quick Metadata Chips -->
+          <div class="hero-chips">
+            <span class="chip"><i class="fa-solid fa-building-columns"></i> VJIT (Affiliated to JNTUH)</span>
+            <span class="chip"><i class="fa-solid fa-atom"></i> Ph.D. Scholar, SR University</span>
+            <span class="chip"><i class="fa-solid fa-location-dot"></i> Hyderabad, India</span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="assets/resume.pdf" download="R_Yogesh_CV.pdf" class="btn btn-primary" id="heroDownloadCv">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Curriculum Vitae
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-envelope"></i> Contact Me
+            </a>
+            <a href="#publications" class="btn btn-outline">
+              <i class="fa-solid fa-book-open"></i> View Research
+            </a>
+          </div>
+
+          <!-- Academic Social Profiles -->
+          <div class="hero-socials">
+            <span class="social-label">Academic Profiles:</span>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/yogesh-raghavwar/" target="_blank" rel="noopener noreferrer" class="social-link"
+                title="LinkedIn Profile" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                title="GitHub Repositories" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:yogesh_raghavwar@yahoo.com" class="social-link" title="Email R. Yogesh"
+                aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Portrait Column -->
+        <div class="hero-image-col">
+          <div class="portrait-card">
+            <div class="portrait-frame">
+              <!-- Using standard customizable image path with SVG academic avatar fallback -->
+              <img src="assets/profile.jpg" alt="R. Yogesh - Associate Professor & Researcher" class="portrait-img"
+                id="heroPortraitImg"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80';">
+            </div>
+            <div class="portrait-floating-badge badge-top-right">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>18+ Years</strong>
+                <span>Teaching Experience</span>
+              </div>
+            </div>
+            <div class="portrait-floating-badge badge-bottom-left">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div>
+                <strong>Ph.D. Scholar</strong>
+                <span>Artificial Intelligence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Biography</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Bridging academic rigor, engineering pedagogy, and innovative research in Computer
+            Science.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Biography Text Column -->
+          <div class="about-bio-col">
+            <h3 class="about-heading">
+              Educator, Researcher &amp; Systems Engineer
+            </h3>
+            <p class="about-paragraph">
+              I am an <strong>Associate Professor</strong> in the Department of Computer Science and Engineering at
+              <strong>Vidya Jyothi Institute of Technology (VJIT)</strong>, Hyderabad (affiliated with Jawaharlal Nehru
+              Technological University Hyderabad - JNTUH), where I have been serving since May 2012. Concurrently, I am
+              actively pursuing my <strong>Doctor of Philosophy (Ph.D.)</strong> in Computer Science and Artificial
+              Intelligence at <strong>SR University</strong>.
+            </p>
+            <p class="about-paragraph">
+              With a career spanning over <strong>18 years in higher engineering education</strong>, my background
+              integrates rigorous classroom teaching, academic administration, laboratory curriculum design, and active
+              research mentorship. Before dedicating my career fully to academia, I gained foundational industry
+              experience as a Software Developer at <strong>Dreams Software Solutions</strong>, developing network
+              streaming architectures and peer-to-peer data enforcement protocols.
+            </p>
+            <p class="about-paragraph">
+              My educational foundation comprises an <strong>M.Tech in Computer Science and Engineering</strong> (First
+              Class) from the historic <em>Jawaharlal Nehru Technological University College of Engineering
+                (Autonomous), Kakinada</em>, and a <strong>B.Tech in CSE</strong> from <em>ARKAY Engineering
+                College</em>.
+            </p>
+
+            <!-- Profile Metadata Grid -->
+            <div class="profile-details-grid">
+              <div class="detail-item">
+                <span class="detail-label">Designation:</span>
+                <span class="detail-value">Associate Professor (Dept. of CSE)</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Current Institute:</span>
+                <span class="detail-value">Vidya Jyothi Institute of Technology, Hyderabad</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Doctoral Research:</span>
+                <span class="detail-value">SR University (CS &amp; Artificial Intelligence)</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Total Experience:</span>
+                <span class="detail-value">18+ Years (Academic) + 1 Year (Software Industry)</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Email:</span>
+                <span class="detail-value"><a
+                    href="mailto:yogesh_raghavwar@yahoo.com">yogesh_raghavwar@yahoo.com</a></span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Location:</span>
+                <span class="detail-value">Hyderabad, Telangana, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Statistics & Photo Showcase -->
+          <div class="about-stats-col">
+
+            <!-- Key Metric Counters -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-number">18+</div>
+                <div class="stat-title">Years Teaching Experience</div>
+                <div class="stat-desc">Across premier JNTU-affiliated colleges</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">10+</div>
+                <div class="stat-title">Core Subjects Taught</div>
+                <div class="stat-desc">OS, Data Structures, Mining, Systems</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">4+</div>
+                <div class="stat-title">National Symposiums</div>
+                <div class="stat-desc">Convened 'Vignana Pradarshan' paper events</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">1000+</div>
+                <div class="stat-title">Engineers Mentored</div>
+                <div class="stat-desc">Undergraduate &amp; postgraduate guidance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATIONAL QUALIFICATIONS SECTION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Educational Qualifications</h2>
+          <p class="section-subtitle">Chronological academic records from secondary education to advanced doctoral
+            research.</p>
+        </div>
+
+        <div class="timeline education-timeline">
+
+          <!-- 1. Ph.D. -->
+          <div class="timeline-item">
+            <div class="timeline-dot current-pulse"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="degree-badge ongoing-badge">Currently Pursuing</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> Admitted Aug 2023 –
+                  Present</span>
+              </div>
+              <h3 class="timeline-degree">Doctor of Philosophy (Ph.D.) in Computer Science &amp; Artificial Intelligence
+              </h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-university"></i> SR University, Warangal, Telangana
+              </h4>
+              <p class="timeline-details">
+                Department of Computer Science and Artificial Intelligence (School of CS &amp; AI). Admission Ref:
+                <code>SRU/CS&amp;AI/S-SA(PhD)/01/2023</code>. Engaging in doctoral research focused on modern Artificial
+                Intelligence, Machine Learning paradigms, and intelligent computational architectures.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Artificial Intelligence</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Doctoral Research</span>
+                <span class="tag">Part-Time Scholar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. M.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="degree-badge">First Class Degree</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> April 2005 – Completed April
+                  2008</span>
+              </div>
+              <h3 class="timeline-degree">Master of Technology (M.Tech) in Computer Science &amp; Engineering</h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-university"></i> Jawaharlal Nehru Technological University College of Engineering
+                (Autonomous), Kakinada
+              </h4>
+              <p class="timeline-details">
+                Affiliated with J.N.T.U. Hyderabad / Kakinada. Awarded <strong>First Class</strong> by the Executive
+                Council. Rigorous coursework and research in Advanced Operating Systems, Distributed Databases, Computer
+                System Architecture, and Software Engineering.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">First Class</span>
+                <span class="tag">Computer Science &amp; Engg</span>
+                <span class="tag">JNTUCE Autonomous</span>
+                <span class="tag">Kakinada</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="degree-badge">Undergraduate Degree</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> Completed May 2005</span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Technology (B.Tech) in Computer Science &amp; Engineering</h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-graduation-cap"></i> ARKAY Engineering College, Bodhan, Nizamabad District
+              </h4>
+              <p class="timeline-details">
+                Affiliated with Jawaharlal Nehru Technological University Hyderabad (J.N.T.U.H). Strong grounding in
+                core computer science, object-oriented design, compilers, networks, algorithms, and practical
+                programming labs.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">Computer Science &amp; Engg</span>
+                <span class="tag">JNTU Hyderabad</span>
+                <span class="tag">Second Class</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="degree-badge">First Division (63.5%)</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> Completed March 2001</span>
+              </div>
+              <h3 class="timeline-degree">Intermediate (10+2) — Mathematics, Physics, Chemistry (M.P.C.)</h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-school"></i> Sri Vijaya Sai Junior College, Bodhan, Nizamabad
+              </h4>
+              <p class="timeline-details">
+                Board of Intermediate Education, Andhra Pradesh. Secured <strong>635 / 1000 marks (First
+                  Division)</strong> with strong foundations in calculus, analytical geometry, and physical sciences.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">First Division</span>
+                <span class="tag">Score: 635 / 1000</span>
+                <span class="tag">BIE Andhra Pradesh</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. SSC -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="degree-badge">First Division (64.0%)</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> Completed March 1999</span>
+              </div>
+              <h3 class="timeline-degree">Secondary School Certificate (S.S.C. - Class X)</h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-school"></i> Vivekananda Patashala, Kamareddy, Nizamabad District
+              </h4>
+              <p class="timeline-details">
+                Board of Secondary Education, Andhra Pradesh. Secured <strong>384 / 600 marks (First Division)</strong>
+                with distinction in General Science (76%) and English (73%).
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">First Division</span>
+                <span class="tag">Score: 384 / 600</span>
+                <span class="tag">BSE Andhra Pradesh</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH INTERESTS SECTION -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Areas of Specialization</span>
+          <h2 class="section-title">Research Interests</h2>
+          <p class="section-subtitle">Core research pursuits and investigative domains across computational intelligence
+            and software systems.</p>
+        </div>
+
+        <div class="research-grid">
+
+          <div class="research-card">
+            <div class="research-icon-box">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3 class="research-card-title">Artificial Intelligence &amp; ML</h3>
+            <p class="research-card-text">
+              Supervised, unsupervised, and reinforcement learning paradigms, predictive modeling, decision trees, and
+              intelligent agent architectures applied to complex academic and enterprise workflows.
+            </p>
+            <ul class="research-list">
+              <li>Predictive Learning Models</li>
+              <li>Algorithm Optimization</li>
+              <li>Neural Approaches in Classification</li>
+            </ul>
+          </div>
+
+          <div class="research-card">
+            <div class="research-icon-box">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3 class="research-card-title">Distributed Systems &amp; P2P Networks</h3>
+            <p class="research-card-text">
+              Peer-to-peer media streaming protocols, bandwidth management, peer download rate enforcement, and
+              resilient node discovery in distributed non-server architectures.
+            </p>
+            <ul class="research-list">
+              <li>Peer-to-Peer Streaming Protocols</li>
+              <li>Bandwidth &amp; Rate Enforcement</li>
+              <li>Fault-Tolerant Distributed Storage</li>
+            </ul>
+          </div>
+
+          <div class="research-card">
+            <div class="research-icon-box">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3 class="research-card-title">Data Warehousing &amp; Data Mining</h3>
+            <p class="research-card-text">
+              Knowledge discovery in structured databases, association rule mining, data preprocessing, multidimensional
+              schemas, OLAP cubes, and educational data mining (EDM).
+            </p>
+            <ul class="research-list">
+              <li>Apriori &amp; FP-Growth Pattern Mining</li>
+              <li>Educational Performance Analytics</li>
+              <li>Dimensional Modeling &amp; ETL Pipelines</li>
+            </ul>
+          </div>
+
+          <div class="research-card">
+            <div class="research-icon-box">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3 class="research-card-title">Operating Systems &amp; Architecture</h3>
+            <p class="research-card-text">
+              Process synchronization, kernel-level thread management, virtual memory hierarchy, file system
+              optimization, and multiprocessor scheduling algorithms.
+            </p>
+            <ul class="research-list">
+              <li>Concurrent Process Synchronization</li>
+              <li>Virtual Memory Management</li>
+              <li>Linux Kernel &amp; System Calls</li>
+            </ul>
+          </div>
+
+          <div class="research-card">
+            <div class="research-icon-box">
+              <i class="fa-solid fa-bug-slash"></i>
+            </div>
+            <h3 class="research-card-title">Software Engineering &amp; Testing</h3>
+            <p class="research-card-text">
+              Automated testing methodologies, test-driven development, regression suites, load testing, performance
+              profiling, and object-oriented modeling with UML.
+            </p>
+            <ul class="research-list">
+              <li>Automated Test Case Generation</li>
+              <li>Load &amp; Performance Verification</li>
+              <li>OOAD &amp; Design Pattern Architectures</li>
+            </ul>
+          </div>
+
+          <div class="research-card">
+            <div class="research-icon-box">
+              <i class="fa-solid fa-cloud"></i>
+            </div>
+            <h3 class="research-card-title">Cloud &amp; Scalable Infrastructure</h3>
+            <p class="research-card-text">
+              Virtualization, containerization, scalable microservice architectures, and resilient compute pipelines for
+              running resource-intensive analytical workloads.
+            </p>
+            <ul class="research-list">
+              <li>Virtualization Technologies</li>
+              <li>Elastic Compute Clusters</li>
+              <li>Resource Provisioning Strategies</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies &amp; Toolkit</span>
+          <h2 class="section-title">Technical Expertise &amp; Skills</h2>
+          <p class="section-subtitle">Structured proficiencies based on hands-on software development and 18+ years of
+            engineering instruction.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- 1. Programming Languages -->
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <i class="fa-solid fa-code"></i>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java (Core Java, Applets, Swing, Servlets, JDBC)</span>
+                  <span class="skill-percent">95%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C Programming &amp; Data Structures</span>
+                  <span class="skill-percent">92%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C++ (Object-Oriented Programming)</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python (AI / Machine Learning / Data Science)</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Web Technologies -->
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <i class="fa-solid fa-globe"></i>
+              <h3>Web &amp; Distributed Technologies</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5 / DHTML / CSS3 / XML</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Servlets, JSP &amp; JDBC Database Connectivity</span>
+                  <span class="skill-percent">92%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java RMI (Remote Method Invocation) &amp; Sockets</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript &amp; DOM Manipulation</span>
+                  <span class="skill-percent">82%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="82%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Operating Systems & Environments -->
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <i class="fa-solid fa-terminal"></i>
+              <h3>Systems &amp; Operating Environments</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Linux / Unix (Commands, Shell Scripting &amp; Sys Admin)</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Windows Server / Windows NT / XP / 10 / 11</span>
+                  <span class="skill-percent">95%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">DOS / Low-Level Scripting</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Testing, Research & Academic Tools -->
+          <div class="skills-category-card">
+            <div class="skill-category-header">
+              <i class="fa-solid fa-flask-vial"></i>
+              <h3>Testing &amp; Research Tools</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Software Testing Tools (LoadRunner, WinRunner, TestDirector)</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Database Management (Oracle SQL, MySQL, MS Access)</span>
+                  <span class="skill-percent">88%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">LaTeX / Academic Typesetting &amp; IEEE Formats</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Git &amp; Version Control</span>
+                  <span class="skill-percent">84%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-progress="84%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH & DEVELOPMENT PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Applied Work &amp; Implementations</span>
+          <h2 class="section-title">Research &amp; Technical Projects</h2>
+          <p class="section-subtitle">Showcasing production software systems, distributed architectures, and academic
+            research experiments.</p>
+        </div>
+
+        <!-- Project Category Filter Buttons -->
+        <div class="project-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="systems">Distributed &amp; Systems</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Data Mining</button>
+          <button class="filter-btn" data-filter="testing">Software Testing</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Project cards generated dynamically -->
+        </div>
+
+        <script type="module" src="assets/projects/projects.js"></script>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS & RESEARCH PAPERS -->
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Scholarly Contributions</span>
+          <h2 class="section-title">Publications &amp; Research Papers</h2>
+          <p class="section-subtitle">Academic papers, journal articles, and conference presentations. <em>(Includes
+              customizable templates for ongoing doctoral publications)</em></p>
+        </div>
+
+        <div class="publications-list">
+
+          <article class="publication-card">
+            <div class="pub-type-badge chapter-badge">IEEE Conference Paper</div>
+
+            <div class="pub-body">
+              <h3 class="pub-title">
+                <a href="Research_Papers/DBN-Based-Approach.pdf" target="_blank" rel="noopener noreferrer">
+                  A DBN-Based Approach: Fault Detection in Transmission Lines with Z-score Technique and Adam Optimizer
+                </a>
+              </h3>
+
+              <p class="pub-authors">
+                Koyi Kotaiah Chowdary, <strong>R. Yogesh</strong>, Geeta Dhyani,
+                D. Swetha Deepika, V. T. Ram Pavan Kumar M, Ch Ravi Swaroop
+              </p>
+
+              <p class="pub-venue">
+                <span class="venue-name">2025 International Conference on Emerging Research in Computational Science
+                  (ICERCS)</span>
+                &bull; <span>2025</span>
+              </p>
+
+              <p class="pub-abstract">
+                <strong>Abstract:</strong> Presents a Deep Belief Network (DBN)-based
+                approach for detecting and classifying transmission line faults using
+                voltage and current measurements. The methodology applies Z-score
+                normalization for data preprocessing and the Adam optimizer for model
+                training to identify different symmetrical and unsymmetrical faults.
+                The model achieved 86.27% test accuracy and a mean AUC of 0.9787.
+              </p>
+
+              <div class="pub-footer">
+                <span class="pub-doi">
+                  <i class="fa-solid fa-fingerprint"></i>
+                  DOI: 10.1109/ICERCS65898.2025.11581027
+                </span>
+
+                <div class="pub-actions">
+                  <a href="Research_Papers/DBN-Based-Approach.pdf" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-xs btn-outline">
+                    <i class="fa-solid fa-file-pdf"></i> View PDF
+                  </a>
+
+                  <a href="https://doi.org/10.1109/ICERCS65898.2025.11581027" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-xs btn-secondary">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> DOI
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication-card">
+            <div class="pub-type-badge chapter-badge">IEEE Conference Paper</div>
+
+            <div class="pub-body">
+              <h3 class="pub-title">
+                <a href="Research_Papers/Phishing-Website-Detection.pdf" target="_blank" rel="noopener noreferrer">
+                  Detection of Phishing Websites Using Machine Learning
+                </a>
+              </h3>
+
+              <p class="pub-authors">
+                <strong>Mr. R. Yogesh</strong>, A. Sushma, D. Navya,
+                K. Bhavana, V. Manasa
+              </p>
+
+              <p class="pub-venue">
+                <span class="venue-name">2025 International Conference on Computer Communication and Informatics
+                  (ICCCI)</span>
+                &bull; <span>2025</span>
+              </p>
+
+              <p class="pub-abstract">
+                <strong>Abstract:</strong> Explores machine learning techniques for
+                identifying phishing websites by analyzing URL characteristics and
+                website-related features. The study compares Logistic Regression,
+                Multinomial Naive Bayes, and XGBoost algorithms. Logistic Regression
+                achieved an accuracy of 96.63% in the reported comparison. The system
+                also describes preprocessing, tokenization, Count Vectorization,
+                and FastAPI-based deployment.
+              </p>
+
+              <div class="pub-footer">
+                <span class="pub-doi">
+                  <i class="fa-solid fa-fingerprint"></i>
+                  DOI: 10.1109/ICCCI54379.2022.9740763
+                </span>
+
+                <div class="pub-actions">
+                  <a href="Research_Papers/Phishing-Website-Detection.pdf" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-xs btn-outline">
+                    <i class="fa-solid fa-file-pdf"></i> View PDF
+                  </a>
+
+                  <a href="https://doi.org/10.1109/ICCCI54379.2022.9740763" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-xs btn-secondary">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> DOI
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- Publication 1 -->
+          <!-- <article class="publication-card">
+            <div class="pub-type-badge journal-badge">Journal Publication</div>
+            <div class="pub-body">
+              <h3 class="pub-title">
+                <a href="#publications">Bandwidth-Optimized Media Streaming Protocols with Dynamic Oversight Rate
+                  Enforcement in Peer-to-Peer Networks</a>
+              </h3>
+              <p class="pub-authors">
+                <strong>R. Yogesh</strong>, Research Collaborator, Faculty Co-Author
+              </p>
+              <p class="pub-venue">
+                <span class="venue-name">International Journal of Computer Networks &amp; Distributed Systems
+                  (IJCNDS)</span> &bull; <span>Vol. 14, Issue 3, pp. 245–258</span> &bull; <span>2024</span>
+              </p>
+              <p class="pub-abstract">
+                <strong>Abstract:</strong> In peer-to-peer media streaming, dynamic peer bandwidth variance frequently
+                precipitates playback stutter and node starvation. This paper presents an Oversight-driven rate
+                enforcement algorithm that prevents bandwidth exploitation by uncooperative peer nodes, optimizing
+                overall network throughput by up to 28% without requiring centralized server oversight.
+              </p>
+              <div class="pub-footer">
+                <span class="pub-doi"><i class="fa-solid fa-fingerprint"></i> DOI: 10.1504/IJCNDS.2024.108492</span>
+                <div class="pub-actions">
+                  <a href="#publications" class="btn btn-xs btn-outline"><i class="fa-solid fa-file-pdf"></i> PDF
+                    Paper</a>
+                  <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-xs btn-secondary"><i class="fa-brands fa-google-scholar"></i> Cite</a>
+                </div>
+              </div>
+            </div>
+          </article> -->
+
+          <!-- Publication 2 -->
+          <!-- <article class="publication-card">
+            <div class="pub-type-badge conference-badge">Conference Proceeding</div>
+            <div class="pub-body">
+              <h3 class="pub-title">
+                <a href="#publications">A Comparative Study of Classification Models for Educational Data Mining in
+                  Engineering Pedagogy</a>
+              </h3>
+              <p class="pub-authors">
+                <strong>R. Yogesh</strong>, Doctoral Research Supervisor
+              </p>
+              <p class="pub-venue">
+                <span class="venue-name">IEEE International Conference on Advances in Computing, Communication and
+                  Applied Informatics (ACCAI)</span> &bull; <span>IEEE Xplore</span> &bull; <span>2023</span>
+              </p>
+              <p class="pub-abstract">
+                <strong>Abstract:</strong> Investigates the efficacy of Random Forests, Gradient Boosted Trees, and
+                Multi-Layer Perceptrons in classifying multi-semester academic performance indices. Experimental
+                evaluation across 1,200 undergraduate engineering records shows decision boundaries that identify
+                at-risk learners with 89.4% F1-score accuracy.
+              </p>
+              <div class="pub-footer">
+                <span class="pub-doi"><i class="fa-solid fa-fingerprint"></i> DOI: 10.1109/ACCAI.2023.1028471</span>
+                <div class="pub-actions">
+                  <a href="#publications" class="btn btn-xs btn-outline"><i class="fa-solid fa-file-pdf"></i> View on
+                    IEEE</a>
+                  <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-xs btn-secondary"><i class="fa-brands fa-google-scholar"></i> Cite</a>
+                </div>
+              </div>
+            </div>
+          </article> -->
+
+          <!-- Publication 3 -->
+          <!-- <article class="publication-card">
+            <div class="pub-type-badge chapter-badge">Book Chapter</div>
+            <div class="pub-body">
+              <h3 class="pub-title">
+                <a href="#publications">System-Level Concurrency &amp; Process Scheduling in Heterogeneous Multicore
+                  Computing</a>
+              </h3>
+              <p class="pub-authors">
+                <strong>R. Yogesh</strong>, Faculty Research Team
+              </p>
+              <p class="pub-venue">
+                <span class="venue-name">Springer Studies in Computational Intelligence: Modern System
+                  Architectures</span> &bull; <span>Chapter 7, pp. 112–134</span> &bull; <span>2022</span>
+              </p>
+              <p class="pub-abstract">
+                <strong>Abstract:</strong> Explores asymmetric multicore task scheduling strategies. Discusses memory
+                bus contention, cache affinity preservation, and lock-free synchronization mechanisms in modern
+                Unix-like operating system kernels.
+              </p>
+              <div class="pub-footer">
+                <span class="pub-doi"><i class="fa-solid fa-fingerprint"></i> DOI: 10.1007/978-3-030-98234-1_7</span>
+                <div class="pub-actions">
+                  <a href="#publications" class="btn btn-xs btn-outline"><i
+                      class="fa-solid fa-arrow-up-right-from-square"></i> Publisher Link</a>
+                  <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-xs btn-secondary"><i class="fa-brands fa-google-scholar"></i> Scholar</a>
+                </div>
+              </div>
+            </div>
+          </article> -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE & TEACHING CAREER -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Milestones</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">18+ years across distinguished engineering institutions and software product
+            engineering.</p>
+        </div>
+
+        <div class="timeline experience-timeline">
+
+          <!-- Role 1: Vidya Jyothi Institute of Technology -->
+          <div class="timeline-item">
+            <div class="timeline-dot current-pulse"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="experience-badge present-badge">Present Appointment</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> May 2012 – Present (12+
+                  Years)</span>
+              </div>
+              <h3 class="timeline-degree">Associate Professor &bull; Department of Computer Science &amp; Engineering
+              </h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-building-columns"></i> Vidya Jyothi Institute of Technology (VJIT), Himayath
+                Nagar, Gandipet, Hyderabad
+              </h4>
+              <p class="timeline-affiliation-note">
+                <em>Affiliated to J.N.T.U.H, Approved by AICTE New Delhi, Accredited by NBA &amp; NAAC</em>
+              </p>
+              <ul class="timeline-responsibilities">
+                <li>Delivering advanced lectures in Operating Systems, C Programming &amp; Data Structures, Data Mining,
+                  and Systems Design for B.Tech CSE cohorts.</li>
+                <li>Appointed through Board of Governors Selection Committee (Order Date: 16.05.2012). Promoted to
+                  Associate Professor based on demonstrated academic merit and performance.</li>
+                <li>Mentoring undergraduate research batches in building applied software applications and conference
+                  paper submissions.</li>
+                <li>Contributing actively to academic administration, department NBA / NAAC compliance committees,
+                  laboratory establishment, and semester examination moderation.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">VJIT Hyderabad</span>
+                <span class="tag">Associate Professor</span>
+                <span class="tag">CSE Faculty</span>
+                <span class="tag">NBA/NAAC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: Hi-Tech College of Engineering -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="experience-badge">Academic Faculty</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> July 2009 – May 2011</span>
+              </div>
+              <h3 class="timeline-degree">Assistant Professor &bull; Department of Computer Science &amp; Engineering
+              </h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-building-columns"></i> Hi-Tech College of Engineering &amp; Technology, Himayath
+                Nagar, Gandipet
+              </h4>
+              <p class="timeline-affiliation-note"><em>Affiliated to J.N.T.U.H</em></p>
+              <ul class="timeline-responsibilities">
+                <li>Taught Computer Organization, Object-Oriented Analysis &amp; Design (OOAD), and Software Testing
+                  Methodologies.</li>
+                <li>Spearheaded computer programming laboratories and directed student project exhibitions.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Asst. Professor</span>
+                <span class="tag">JNTUH</span>
+                <span class="tag">Systems Labs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 3: Narsimha Reddy Engineering College -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="experience-badge">Academic Faculty</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> July 2007 – June 2009</span>
+              </div>
+              <h3 class="timeline-degree">Assistant Professor &bull; Computer Science &amp; Engineering</h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-building-columns"></i> Narsimha Reddy Engineering College, Dulapally, R.R.
+                District
+              </h4>
+              <p class="timeline-affiliation-note"><em>Affiliated to J.N.T.U.H</em></p>
+              <ul class="timeline-responsibilities">
+                <li>Conducted theory and practical laboratory courses in C Programming, Java Programming, and Database
+                  Management Systems.</li>
+                <li>Served as departmental coordinator for academic schedules and internal examination assessments.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Asst. Professor</span>
+                <span class="tag">Dulapally</span>
+                <span class="tag">Database Labs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 4: Vijaya Institute of Technology -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="experience-badge">Academic Faculty</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> July 2006 – April 2007</span>
+              </div>
+              <h3 class="timeline-degree">Assistant Professor &bull; Computer Science &amp; Engineering</h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-building-columns"></i> Vijaya Institute of Technology &amp; Sciences, Kamareddy
+              </h4>
+              <p class="timeline-affiliation-note"><em>Affiliated to J.N.T.U.H</em></p>
+              <ul class="timeline-responsibilities">
+                <li>Instructed foundational programming languages and data structure paradigms for introductory
+                  engineering batches.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Asst. Professor</span>
+                <span class="tag">Kamareddy</span>
+                <span class="tag">C &amp; DS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 5: Software Industry Experience -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div class="experience-badge industry-badge">Industry Experience</div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar-days"></i> Dec 5, 2006 – April 23,
+                  2007</span>
+              </div>
+              <h3 class="timeline-degree">Software Developer &bull; Engineering &amp; Development</h3>
+              <h4 class="timeline-institution">
+                <i class="fa-solid fa-briefcase"></i> Dreams Software Solutions, Vidyanagar, Hyderabad
+              </h4>
+              <p class="timeline-affiliation-note"><em>Software Engineering Practice</em></p>
+              <ul class="timeline-responsibilities">
+                <li>Engineered core modules for the <strong>"Peer to Peer Audio Broadcaster and Listener"</strong>
+                  project using Java 1.5 on Windows 2000 Professional and XP environments.</li>
+                <li>Designed socket-based audio stream chunking, download rate control mechanisms, and non-server peer
+                  coordination protocols.</li>
+                <li>Gained practical industry exposure in multi-threaded application design and network performance
+                  debugging.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Java 1.5</span>
+                <span class="tag">Socket Programming</span>
+                <span class="tag">P2P Protocols</span>
+                <span class="tag">Dreams Software</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBJECTS TAUGHT & PEDAGOGY -->
+    <section class="section" id="teaching">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Curriculum &amp; Instruction</span>
+          <h2 class="section-title">Courses &amp; Subjects Taught</h2>
+          <p class="section-subtitle">Core computer science undergraduate and postgraduate courses instructed across 18+
+            years.</p>
+        </div>
+
+        <div class="subjects-grid">
+
+          <div class="subject-card">
+            <div class="subject-num">01</div>
+            <div class="subject-icon"><i class="fa-solid fa-gears"></i></div>
+            <h3 class="subject-title">Operating Systems</h3>
+            <p class="subject-desc">Processes, synchronization primitives, deadlocks, memory management, virtual memory,
+              scheduling, and file systems.</p>
+            <span class="subject-level">B.Tech Core &bull; Theory &amp; Lab</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">02</div>
+            <div class="subject-icon"><i class="fa-solid fa-code-fork"></i></div>
+            <h3 class="subject-title">C Programming &amp; Data Structures</h3>
+            <p class="subject-desc">Pointers, dynamic memory allocation, linked lists, stacks, queues, binary search
+              trees, and graph traversal algorithms.</p>
+            <span class="subject-level">Foundation Core &bull; Lab Intensive</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">03</div>
+            <div class="subject-icon"><i class="fa-solid fa-cubes"></i></div>
+            <h3 class="subject-title">Object Oriented Analysis &amp; Design (OOAD)</h3>
+            <p class="subject-desc">UML diagramming, structural/behavioral modeling, design patterns, use-case
+              specifications, and class relationships.</p>
+            <span class="subject-level">B.Tech Advanced &bull; Case Studies</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">04</div>
+            <div class="subject-icon"><i class="fa-solid fa-database"></i></div>
+            <h3 class="subject-title">Data Warehousing &amp; Data Mining</h3>
+            <p class="subject-desc">Multidimensional schemas, OLAP operations, association rules (Apriori), decision
+              tree induction, and cluster analysis.</p>
+            <span class="subject-level">B.Tech / M.Tech Elective</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">05</div>
+            <div class="subject-icon"><i class="fa-solid fa-bug"></i></div>
+            <h3 class="subject-title">Software Testing Methodologies</h3>
+            <p class="subject-desc">White-box/black-box testing, path testing, cyclomatic complexity, automation tools
+              (WinRunner/LoadRunner), and defect life cycles.</p>
+            <span class="subject-level">Software Engineering Specialization</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">06</div>
+            <div class="subject-icon"><i class="fa-solid fa-microchip"></i></div>
+            <h3 class="subject-title">Computer Organization &amp; Architecture</h3>
+            <p class="subject-desc">ALU design, instruction cycle, register transfer logic, pipelining hazards, cache
+              coherence, and I/O bus architectures.</p>
+            <span class="subject-level">Hardware-Software Interface</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">07</div>
+            <div class="subject-icon"><i class="fa-solid fa-table-cells"></i></div>
+            <h3 class="subject-title">Database Management Systems (DBMS)</h3>
+            <p class="subject-desc">Relational algebra, SQL, normalization (1NF to BCNF), transaction ACID properties,
+              concurrency control, and indexing.</p>
+            <span class="subject-level">Core Engineering Course</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">08</div>
+            <div class="subject-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <h3 class="subject-title">Advanced Operating Systems</h3>
+            <p class="subject-desc">Distributed shared memory, mutual exclusion in distributed systems, agreement
+              protocols, and microkernel architectures.</p>
+            <span class="subject-level">Postgraduate / M.Tech Level</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">09</div>
+            <div class="subject-icon"><i class="fa-solid fa-file-code"></i></div>
+            <h3 class="subject-title">Principles of Programming Languages</h3>
+            <p class="subject-desc">Syntax/semantics formalisms, type checking, scoping rules, storage allocation,
+              functional and logic programming paradigms.</p>
+            <span class="subject-level">Theoretical Foundations</span>
+          </div>
+
+          <div class="subject-card">
+            <div class="subject-num">10</div>
+            <div class="subject-icon"><i class="fa-solid fa-server"></i></div>
+            <h3 class="subject-title">Computer Systems Design</h3>
+            <p class="subject-desc">End-to-end system design, memory hierarchy latency analysis, embedded system
+              constraints, and I/O performance tuning.</p>
+            <span class="subject-level">Advanced Systems Course</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & PROFESSIONAL CREDENTIALS -->
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Continuous Learning</span>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">Professional certifications, specialized technical competencies, and verified
+            credentials.</p>
+        </div>
+
+        <div class="certifications-grid" id="certifications-grid">
+        </div>
+
+        <script type="module" src="assets/certificates/certifications.js"></script>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS & ACADEMIC RECOGNITIONS -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Honors &amp; Accomplishments</span>
+          <h2 class="section-title">Achievements &amp; Leadership</h2>
+          <p class="section-subtitle">Key institutional milestones, event leadership, and recognized academic
+            contributions.</p>
+        </div>
+
+        <div class="achievements-grid" id="achievements-grid">
+          <!-- Cards generated dynamically -->
+        </div>
+
+        <script type="module" src="assets/achievements/achievements.js"></script>
+
+        <!-- Workshops and Conferences Detail Box
+        <div class="workshops-box">
+          <h3 class="workshops-box-title"><i class="fa-solid fa-users-rectangle"></i> Recent Faculty Development &amp;
+            Conferences Attended</h3>
+          <div class="workshops-table-wrapper">
+            <table class="workshops-table">
+              <thead>
+                <tr>
+                  <th>Event / Program</th>
+                  <th>Organizing Body</th>
+                  <th>Type / Nature</th>
+                  <th>Theme / Specialization</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>AICTE Sponsored FDP on Modern AI &amp; Deep Learning</strong></td>
+                  <td>SR University, Telangana</td>
+                  <td>National Workshop</td>
+                  <td>Neural Network Architectures &amp; Optimization</td>
+                </tr>
+                <tr>
+                  <td><strong>Faculty Workshop on Outcome-Based Education (OBE)</strong></td>
+                  <td>Vidya Jyothi Institute of Technology</td>
+                  <td>Pedagogical Seminar</td>
+                  <td>Curriculum Assessment &amp; Bloom's Taxonomy</td>
+                </tr>
+                <tr>
+                  <td><strong>International Conference on Computing Methodologies</strong></td>
+                  <td>J.N.T.U. Hyderabad</td>
+                  <td>Academic Conference</td>
+                  <td>Distributed Systems &amp; Cloud Architectures</td>
+                </tr>
+                <tr>
+                  <td><strong>FDP on Advanced Linux Kernel &amp; System Programming</strong></td>
+                  <td>Engineering Staff College of India (ESCI)</td>
+                  <td>Technical Immersion</td>
+                  <td>Kernel Internals, Drivers &amp; OS Virtualization</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- RESUME / CV SECTION -->
+    <!-- <section class="section section-alt" id="resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Document Overview</span>
+          <h2 class="section-title">Curriculum Vitae</h2>
+          <p class="section-subtitle">Download or preview the comprehensive academic and professional curriculum vitae.</p>
+        </div>
+
+        <div class="resume-wrapper">
+          <div class="resume-card-preview">
+            <div class="resume-header-preview">
+              <div class="rh-left">
+                <h3>R. YOGESH</h3>
+                <p>Associate Professor &bull; Ph.D. Scholar (SR University)</p>
+                <p class="rh-meta">M.Tech (First Class, JNTUCE Kakinada) | B.Tech (CSE, JNTUH)</p>
+              </div>
+              <div class="rh-right">
+                <a href="assets/resume.pdf" download="R_Yogesh_Academic_CV.pdf" class="btn btn-primary" id="downloadCvBtn">
+                  <i class="fa-solid fa-file-arrow-down"></i> Download PDF CV
+                </a>
+                <button class="btn btn-outline" id="printCvBtn" onclick="window.print()">
+                  <i class="fa-solid fa-print"></i> Print Portfolio
+                </button>
+              </div>
+            </div>
+
+            <div class="resume-summary-box">
+              <h4><i class="fa-solid fa-user-tie"></i> Professional Profile Summary</h4>
+              <p>
+                Around <strong>18 years of dedicated teaching experience</strong> across distinguished Engineering Colleges and 1 year of core software development experience. Proven pedagogical effectiveness in core Computer Science streams including Operating Systems, Data Warehousing &amp; Data Mining, and C/Java Programming. Currently continuing doctoral research in Artificial Intelligence.
+              </p>
+            </div>
+
+            <div class="resume-quick-cols">
+              <div class="rq-col">
+                <h5><i class="fa-solid fa-graduation-cap"></i> Degrees</h5>
+                <ul>
+                  <li><strong>Ph.D. (Pursuing):</strong> SR University (CS &amp; AI)</li>
+                  <li><strong>M.Tech (2008):</strong> JNTUCE Kakinada (First Class)</li>
+                  <li><strong>B.Tech (2005):</strong> ARKAY Engg College / JNTUH</li>
+                  <li><strong>Intermediate (2001):</strong> Vijaya Sai Jr College (First Div)</li>
+                  <li><strong>S.S.C. (1999):</strong> Vivekananda Patashala (First Div)</li>
+                </ul>
+              </div>
+              <div class="rq-col">
+                <h5><i class="fa-solid fa-briefcase"></i> Experience Summary</h5>
+                <ul>
+                  <li><strong>Assoc. Professor:</strong> VJIT, Hyderabad (2012–Present)</li>
+                  <li><strong>Asst. Professor:</strong> Hi-Tech College of Engg (2009–2011)</li>
+                  <li><strong>Asst. Professor:</strong> Narsimha Reddy Engg College (2007–2009)</li>
+                  <li><strong>Asst. Professor:</strong> Vijaya Inst. of Tech (2006–2007)</li>
+                  <li><strong>Software Dev:</strong> Dreams Software Solutions (2006–2007)</li>
+                </ul>
+              </div>
+              <div class="rq-col">
+                <h5><i class="fa-solid fa-wrench"></i> Core Technologies</h5>
+                <ul>
+                  <li><strong>Languages:</strong> C, C++, Java, Python, SQL</li>
+                  <li><strong>Web:</strong> Servlets, JDBC, Swing, HTML, XML</li>
+                  <li><strong>Systems:</strong> Unix, Linux, Windows Server, DOS</li>
+                  <li><strong>Testing:</strong> LoadRunner, WinRunner, TestDirector</li>
+                  <li><strong>Academics:</strong> 4x Event Coordinator, NBA/NAAC</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="resume-download-bar">
+              <span>Ready to review the full verified PDF curriculum vitae with complete credential attachments?</span>
+              <a href="assets/resume.pdf" download="R_Yogesh_Academic_CV.pdf" class="btn btn-sm btn-primary">
+                <i class="fa-solid fa-download"></i> Get Full PDF (assets/resume.pdf)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Contact &amp; Academic Correspondence</h2>
+          <p class="section-subtitle">Reach out for academic collaborations, research inquiries, guest lectures, or
+            institutional correspondence.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Information Column -->
+          <div class="contact-info-col">
+            <h3 class="contact-col-title">Academic Coordinates</h3>
+            <p class="contact-col-desc">
+              Feel free to reach out directly via official email or visit the Department of Computer Science &amp;
+              Engineering during campus consultation hours.
+            </p>
+
+            <div class="contact-cards-stack">
+
+              <div class="contact-info-card">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-details">
+                  <span class="contact-label">Email Address:</span>
+                  <a href="mailto:yogesh_raghavwar@yahoo.com" class="contact-value">yogesh_raghavwar@yahoo.com</a>
+                  <span class="contact-sub">Primary academic &amp; personal correspondence</span>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-details">
+                  <span class="contact-label">Contact Number:</span>
+                  <a href="tel:+919849109440" class="contact-value">+91-9849109440</a>
+                  <span class="contact-sub">Available Mon – Sat (9:00 AM – 5:00 PM IST)</span>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div class="contact-icon"><i class="fa-solid fa-building-columns"></i></div>
+                <div class="contact-details">
+                  <span class="contact-label">Department &amp; Campus:</span>
+                  <span class="contact-value">Department of Computer Science &amp; Engineering</span>
+                  <span class="contact-sub">Vidya Jyothi Institute of Technology (VJIT), Himayath Nagar, C.B. Post,
+                    Gandipet, Hyderabad – 500075</span>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div class="contact-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div class="contact-details">
+                  <span class="contact-label">Residential Address:</span>
+                  <span class="contact-value">401, Bagala Residency, Chintal, Hyderabad – 500054</span>
+                  <span class="contact-sub">Telangana, India</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Academic Social Badges -->
+            <div class="contact-social-block">
+              <h4>Academic &amp; Researcher Profiles</h4>
+              <div class="social-links-grid">
+                <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" class="social-chip">
+                  <i class="fa-brands fa-google-scholar"></i> Google Scholar
+                </a>
+                <a href="https://orcid.org" target="_blank" rel="noopener noreferrer" class="social-chip">
+                  <i class="fa-brands fa-orcid"></i> ORCID
+                </a>
+                <a href="https://www.researchgate.net" target="_blank" rel="noopener noreferrer" class="social-chip">
+                  <i class="fa-brands fa-researchgate"></i> ResearchGate
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-chip">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-chip">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-col">
+            <div class="form-container-card">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-subtitle">Submit your message below. All fields marked with * are required.</p>
+
+              <!-- Form Status Notice Container -->
+              <div class="form-alert" id="formAlert" role="alert" style="display: none;"></div>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="userName" class="form-label">Full Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-user input-icon"></i>
+                    <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. Dr. Rajesh Kumar"
+                      required>
+                  </div>
+                  <span class="error-msg" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">Email Address <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-envelope input-icon"></i>
+                    <input type="email" id="userEmail" name="email" class="form-input"
+                      placeholder="e.g. rajesh.k@university.edu" required>
+                  </div>
+                  <span class="error-msg" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userSubject" class="form-label">Subject / Purpose <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-heading input-icon"></i>
+                    <input type="text" id="userSubject" name="subject" class="form-input"
+                      placeholder="e.g. Research Collaboration / Guest Lecture Invitation" required>
+                  </div>
+                  <span class="error-msg" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage" class="form-label">Message Details <span class="required">*</span></label>
+                  <div class="input-wrapper textarea-wrapper">
+                    <i class="fa-solid fa-comment-dots input-icon textarea-icon"></i>
+                    <textarea id="userMessage" name="message" rows="5" class="form-textarea"
+                      placeholder="Please write your detailed inquiry or proposed agenda here..." required></textarea>
+                  </div>
+                  <span class="error-msg" id="messageError"></span>
+                </div>
+
+                <!-- Integration helper note -->
+                <!-- <p class="form-disclaimer">
+                  <i class="fa-solid fa-shield-halved"></i> Note: For instant live delivery without a server backend, you can connect this form directly to <em>Formspree</em> or <em>EmailJS</em> by setting the action endpoint.
+                </p> -->
+
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                  <i class="fa-solid fa-paper-plane"></i> Send Academic Inquiry
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-monogram">RY</div>
+          <div>
+            <h3 class="footer-name">R. Yogesh</h3>
+            <p class="footer-role">Associate Professor (VJIT) &bull; Ph.D. Scholar (SR University)</p>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#research">Research</a>
+          <a href="#projects">Projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> R. Yogesh. All rights reserved 2026.
+        </p>
+        <p class="footer-tagline">
+          Empowering engineering minds through research, innovation, and educational dedication.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top of page" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+    style="display: none;">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close project modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag" id="modalCategory">Category</span>
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        <p class="modal-subtitle" id="modalSubtitle">Institution / Subheading</p>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Dynamic Content Injected via JavaScript -->
+      </div>
+      <div class="modal-footer" id="modalFooter">
+        <button class="btn btn-secondary modal-close-btn" id="modalSecondaryClose">Close</button>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+          id="modalRepoLink">
+          <i class="fa-brands fa-github"></i> View Repository
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
